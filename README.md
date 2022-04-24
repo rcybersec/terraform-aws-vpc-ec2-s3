@@ -1,4 +1,4 @@
-# Terraform-Instance-VPC-S3-Bucket-Example
+# Terraform Instance-VPC-S3-Bucket Example
 This repo is used to show an example of how you might deploy an Ubuntu instance with a simple VPC, an S3 bucket pre-configured with a user and policy in IAM, and the auth key and secret uploaded as an encrypted text file directly to the S3 bucket when the deployment is complete. The idea behind this repo was to provide the user with a usable environment that is a bit more feature complete and secure than the typical barebones deployment of "just getting it to work". I also wanted to whitelist the user's IP address by default in SSH to avoid exposing the instance to the entire internet.
 
 # Deploys the following:
