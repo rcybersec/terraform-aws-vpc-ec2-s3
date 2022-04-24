@@ -8,5 +8,6 @@ sudo apt install awscli s3fs -y
 # Retrieve the auth key and secret from the access_keys.txt on the S3 bucket
 # Then run echo ACCESS_KEY_ID:SECRET_ACCESS_KEY > /home/ubuntu/.s3fs-creds on the instance
 # chmod 600 /home/ubuntu/.s3fs-creds
+# mkdir /home/ubuntu/s3_bucket
 # And now we mount it with: s3fs push-button-demo-bucket /home/ubuntu/s3_bucket -o passwd_file=/home/ubuntu/.s3fs-creds
 # Change the bucket name accordingly to suit your purposes
