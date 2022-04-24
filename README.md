@@ -21,4 +21,3 @@ This repo is used to show an example of how you might deploy an Ubuntu instance 
 
 # ToDo
 - Clean up code and introduce more variables
-- Convert to a module
