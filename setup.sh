@@ -1,7 +1,8 @@
+#!/bin/bash
 # Commands to get awscli and s3fs pre-installed for us so we can mount our S3 bucket
-sudo apt-get update
-sudo apt-get install s3fs awscli -y
-mkdir /home/ubuntu/s3_bucket
+sudo apt update
+sudo apt upgrade -y
+sudo apt install awscli s3fs -y
 
 # To finish setting up once logged into the instance do the following:
 # Retrieve the auth key and secret from the access_keys.txt on the S3 bucket
