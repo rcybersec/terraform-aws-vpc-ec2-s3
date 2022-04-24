@@ -19,6 +19,6 @@ This repo is used to show an example of how you might deploy an Ubuntu instance 
 # Destroying the deployment
 1. To wipe the slate clean and destroy all of the resources you deployed run the following: "terraform destroy" and type "yes" at the prompt
 
-#ToDo
+# ToDo
 - Clean up code and introduce more variables
 - Convert to a module
