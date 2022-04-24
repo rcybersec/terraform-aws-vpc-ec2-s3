@@ -10,3 +10,15 @@ This repo is used to show an example of how you might deploy an Ubuntu instance 
 - Versioning is enabled by default on the bucket to protect against accidental file deletion and overwriting. This is meant more for a production environment, so feel free to disable this feature if you don't want it.
 - Force delete is disabled so that the S3 bucket won't be deleted if it has files in it
 - An auth key and secret are generated and are uploaded to the S3 bucket with AES256 encryption and can be found in th file "access_keys.txt"
+
+# How to use this repo
+1. Clone with git: git clone https://github.com/rcsfc/Terraform-Instance-VPC-S3-Bucket-Example.git
+2. Run "terraform init"
+3. Run "terraform apply" and type "yes" at the prompt
+
+# Destroying the deployment
+1. To wipe the slate clean and destroy all of the resources you deployed run the following: "terraform destroy" and type "yes" at the prompt
+
+#ToDo
+- Clean up code and introduce more variables
+- Convert to a module
