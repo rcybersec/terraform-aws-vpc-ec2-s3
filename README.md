@@ -9,10 +9,10 @@ This repo is used to show an example of how you might deploy an Ubuntu instance 
 - S3 bucket with the private ACL setting and a new user created that has read, put and delete permissions (adjust to your needs)
 - Versioning is enabled by default on the bucket to protect against accidental file deletion and overwriting. This is meant more for a production environment, so feel free to disable this feature if you don't want it.
 - Force delete is disabled so that the S3 bucket won't be deleted if it has files in it
-- An auth key and secret are generated and are uploaded to the S3 bucket with AES256 encryption and can be found in th file "access_keys.txt"
+- An auth key and secret are generated and are uploaded to the S3 bucket with AES256 encryption and can be found in the file "access_keys.txt"
 
 # How to use this repo
-1. Clone with git: git clone https://github.com/rcsfc/Terraform-Instance-VPC-S3-Bucket-Example.git
+1. git clone https://github.com/rcsfc/Terraform-Instance-VPC-S3-Bucket-Example.git
 2. Run "terraform init"
 3. Run "terraform apply" and type "yes" at the prompt
 
